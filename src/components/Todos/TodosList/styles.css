@@ -1,0 +1,18 @@
+.list-container {
+    padding: 8px;
+    min-height: 40vh;
+    max-height: 50vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: auto;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: 0.5fr 8fr 1fr;
+    align-items: center;
+}
+
+.crossed-text {
+    text-decoration: line-through;
+}

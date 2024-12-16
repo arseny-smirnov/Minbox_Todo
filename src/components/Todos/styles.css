@@ -1,0 +1,6 @@
+.todos-container {
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+}
