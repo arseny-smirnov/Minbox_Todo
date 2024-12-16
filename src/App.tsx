@@ -1,11 +1,9 @@
-import {Header, Todos} from "src/components";
-import './index.css';
+import {Routing} from "./Routing";
 
 export const App = () => {
     return (
-        <div className="main">
-            <Header />
-            <Todos />
+        <div >
+            <Routing />
         </div>
     )
 }
